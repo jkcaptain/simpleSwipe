@@ -14,32 +14,18 @@
 
 html结构
 
-<pre>
-    <code>
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide"></div>
-              <div class="swiper-slide"</div>
-              <div class="swiper-slide"></div>
-            </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"</div>
+            <div class="swiper-slide"></div>
         </div>
-    </code>
-</pre>
-
-`
-<div class="swiper-container">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide"></div>
-      <div class="swiper-slide"</div>
-      <div class="swiper-slide"></div>
     </div>
-</div>
-`
 
 初始化
-`
+
 window.simpleSwipe(document.querySelector('.swiper-container'), 
 {
   showIcon: true
 });
-`
+
