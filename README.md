@@ -12,8 +12,21 @@
 
 用法：
 
+html结构
+
 `
-simpleSwipe(document.querySelector('.swiper-container'), 
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"</div>
+      <div class="swiper-slide"></div>
+    </div>
+</div>
+`
+
+初始化
+`
+window.simpleSwipe(document.querySelector('.swiper-container'), 
 {
   showIcon: true
 });
