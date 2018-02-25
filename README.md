@@ -36,5 +36,6 @@ html结构
    
 参数  
 
-    showIcon: Boolean      //是否显示小圆点, 默认为true
-    speed：Number  //touchend后，图片滑入下一页的时间，默认为300， 单位ms
+    showIcon: Boolean      //是否显示小圆点, 默认为true
+    speed：Number  //touchend后，图片滑入下一页的时间，默认为300， 单位ms
+       
