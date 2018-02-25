@@ -12,7 +12,7 @@
 
 目前只提供最基本的功能：图片滑动和item-icon的切换。
 
-兼容性：只处理 webkit 兼容。
+兼容性：只处理移动端, 兼容webkit内核。
 
 希望能给大家带来帮助。
 
@@ -33,4 +33,9 @@ html结构
     window.simpleSwipe(document.querySelector('.swiper-container'), {
         showIcon: true
     });
+   
+参数  
 
+    showIcon: Boolean      //是否显示小圆点, 默认为true
+    speed：Number  //touchend后，图片滑入下一页的时间，默认为300， 单位ms
+       
