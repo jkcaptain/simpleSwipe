@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>simpleSwipe</title>
-	<link rel="stylesheet" href="./simpleSwipe.css">
-	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta charset="UTF-8">
+    <title>simpleSwipe</title>
+    <link rel="stylesheet" href="./simpleSwipe.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 </head>
+
 <body>
-	<div style="position:absolute;width:100%;height:100%;top:0;left:0;">
-		<div class="swiper-container">
-			<div class="swiper-wrapper">
-				<div class="swiper-slide" style="background-color: #999"></div>
-				<div class="swiper-slide" style="background-color: #666"></div>
-				<div class="swiper-slide" style="background-color: #333"></div>
-			</div>
-		</div>
-	</div>
-	<script src="./simpleSwipe.js"></script>
-	<script>
-		window.simpleSwipe(document.querySelector('.swiper-container'), {
-			showIcon : true
-		});
-	</script>
+    <div style="position:absolute;width:100%;height:100%;top:0;left:0;">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-color: #999"></div>
+                <div class="swiper-slide" style="background-color: #666"></div>
+                <div class="swiper-slide" style="background-color: #333"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./simpleSwipe.js"></script>
+    <script>
+        window.simpleSwipe(document.querySelector('.swiper-container'), {
+            showIcon: true
+        });
+    </script>
 </body>
+
 </html>
